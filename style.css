@@ -1,0 +1,315 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	
+	border: 0;
+	font: inherit;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    
+	
+}
+
+
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+   
+}
+
+label
+{
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.label
+{
+    margin: 10px 0px; 
+}
+
+body
+{   background-color:#f9f9f9;
+    background-size: cover;
+    height: 100%;
+    margin:0 auto;
+    
+    
+
+}
+*,
+*:before,
+*:after {box-sizing: border-box;}
+
+/*My code*/
+.banner
+{
+   
+    background-color: #d94e44;
+    color:white;
+    text-align: center;
+    padding:10px;
+    border: 10px;
+    margin:0;
+}
+
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
+.navitem
+{   
+    margin: none;
+    text-align: center;
+	width: 50%;
+	color: #d94e44;
+    padding-top: 10px;
+	padding-bottom: 10px;
+    border-bottom:1px solid #d6d4d4;
+	line-height:10px;
+	cursor: pointer;
+    
+	
+}
+.navitem:last-child
+{
+    border-left:1px solid #d6d4d4;
+}
+
+
+h3
+{
+    background-color: #db4d3f;
+	text-align: left;
+	color:white;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+    font-size: 1.25em;
+    line-height: auto;
+    padding-bottom: 5px;
+}
+
+
+
+p 
+{
+    font-size: 1.25em;  
+
+}
+
+input,select
+{
+	
+	width: auto;
+	margin:auto;
+	border-radius: 5px;
+	border:1px solid #d0d0d0;
+    resize: none;
+   
+}
+
+.center 
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+	align-content: center;	
+   
+
+}
+
+
+ul
+{
+    font-family: sans-serif;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+    list-style: none;
+    margin:0 auto;
+}
+
+.arw
+{
+    color:#d94e44;
+    font-size:0.75em;
+
+}
+
+
+
+html
+{
+    letter-spacing: 0.3px;
+}
+
+ol li
+{
+     list-style-type: decimal;
+     padding-top:20px;
+     line-height: 1.3em;
+     padding-bottom: 20px;
+    
+}
+
+
+button
+{
+	color: #db4d3f;
+	border:1px solid #db4d3f;
+	border-radius:3px;
+	padding: 8px;
+    margin:0 auto;
+   
+}
+
+section
+{
+    align-content: center;   
+    background-color: #eeeeef;
+	margin-top: 20px;
+	padding-bottom: 20px;
+    width:100%;
+}
+
+#inputfield
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    border:1px solid #d0d0d0;
+}
+
+
+
+
+
+#step
+{
+    width: 90%;
+    justify-content: center;
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+    margin-top: 10px;
+    
+}
+
+#cancel
+{
+    width:50%;
+    background-color:#fff;
+    color:#db4d3f;
+    float:left;
+    border:1px solid #db4d3f;
+}
+#save
+{
+    color:#fff;
+    background-color: #db4d3f;
+    width: 50%;
+    float:right;
+    border:1px solid #db4d3f;
+}
+i.fa.fa-trash-o 
+{
+    text-align: center;
+}
+footer
+{
+    width:100%;
+    vertical-align:inherit;
+    margin-top:20px;
+    margin-bottom: 100px;
+}
+
+
+
+#selector
+{
+    
+	display: flex;
+	align-content: center;
+    margin-top: 10px;
+}
+
+#qt
+{
+    width: 70px;
+    padding:5px;
+    text-align: center;    
+}
+
+#ing
+{
+    width: 200px;
+    padding:5px;
+    text-align: center;
+}
+
+#unit
+{
+    height: 26px;
+    width: 50px;
+    padding:5px;
+    text-align: center;   
+}
+
+#of
+{
+    width: 70px;
+    padding:5px;
+    text-align: center;   
+}
+
+#add
+{
+   height: 26px;
+    width: 20px;
+    padding:3px;
+    text-align: center;
+}
+@media screen and (min-width: 1300px) {
+	.center{
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;		
+		align-items: center;
+	}
+
+}

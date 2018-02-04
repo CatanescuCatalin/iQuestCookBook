@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>iQuest Cook Book</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        
+    <header role="banner">
+        <h1 class="banner">
+        <i class="fa fa-cutlery"></i>
+            <strong>iQuest Cook Book</strong>
+        </h1>
+        
+        <nav>
+         <table>
+            <tr>
+                <td class="navitem">
+                <i class="fa fa-plus"></i>
+                    <b>New recipe</b>
+                </td>
+                <td class="navitem">
+                <select>
+                <option value="value1">Scambled egg omlette</option>
+                <option value="value2" selected>Select a recipe...</option>
+                </select>
+                </td>
+            </tr>
+        </table>
+        </nav>
+    
+    </header>
+      
+    <main class="center">
+        <section >
+            <h3><i class="fa fa-info"></i> About</h3>
+        
+            <form>
+             
+                <div class="label">
+                    <label for="title">Recipe title</label>
+                </div>
+                <div>
+                    <input type="text" id="inputfield" name="title" placeholder=" Title">
+                </div>
+                
+                <div class="label">
+                    <label for="message">Description</label>
+                </div>
+                <div>
+                    <textarea name="message" id="inputfield" rows="10" cols="30" placeholder=" About the recipe"></textarea>
+                </div>
+              
+                <div id="selector">
+                    <label for="portions">Portions</label>
+                      <select name="text">
+                        <option value="value1" selected>1</option>
+                        <option value="value2">2</option>
+                        <option value="value3">3</option>
+                        <option value="value4">4</option>
+                        <option value="value5">5</option>
+                        <option value="value6">6</option>
+                        <option value="value7">7</option>
+                        <option value="value5">8</option>
+                        <option value="value6">9</option>
+                        <option value="value7">10</option>
+                    </select>
+                    <label for="time">Time(mins)</label>
+                      <select name="text">
+                        <option value="value1" selected>5</option>
+                        <option value="value2">10</option>
+                        <option value="value3">15</option>
+                        <option value="value4">20</option>
+                        <option value="value5">30</option>
+                        <option value="value6">45</option>
+                        <option value="value7">60</option>
+                        <option value="value5">90</option>
+                        <option value="value6">120</option>
+                    </select>
+                    <label for="dificulty">Dificulty</label>
+                    <select name="text">
+                        <option value="value1" selected>1</option>
+                        <option value="value2">2</option>
+                        <option value="value3">3</option>
+                        <option value="value4">4</option>
+                        <option value="value5">5</option>
+                    </select>
+                </div>
+            </form>
+                
+        </section>
+       
+        <section>
+            
+            <h3 ><i class="fa fa-list" ></i> Ingredients</h3>
+                
+            <ul >
+                <div>
+                <li><i class="arw">>> </i>300 g brown rice</li>
+                </div>
+                <div>
+                <li><i class="arw">>> </i> 2 pc red onions</li>
+                </div>
+                <div>
+                <li><i class="arw">>> </i> 1 pc fresh red chilli</li>
+                </div>
+                <div>
+                <li><i class="arw">>> </i> 25 g unsalted butter</li>
+                </div>
+                <div>
+                <li><i class="arw">>> </i> 6 pc large free-range eggs</li>
+                </div>
+            </ul>  
+             
+        
+        <div id="selector"> 
+            
+        <input id="qt" type="text" name="Qty" placeholder=" Qty.">
+            
+        <select id="unit" name="text">
+            <option value="value1" selected>Unit</option>
+            <option value="value2">g</option>
+            <option value="value3">Kg</option>
+            <option value="value4">pc</option>
+            <option value="value5">ml</option>
+            <option value="value6">l</option>
+            <option value="value7">tea spoon(s)</option>
+        </select>
+        
+        <span id="of"> of </span>
+        
+        <input id="ing" type="text" name="ingredient" placeholder=" Ingredient">
+       
+        <button type="submit" id="add"><i class="fa fa-plus-square"></i></button>
+            
+        </div> 
+            
+            
+        </section>
+        <section>
+            
+            <h3><i class="fa fa-list-ol"></i> Steps</h3>
+       
+            <ol>
+                    <li>
+                        Cook the rice in a pan of boiling salted water according to the packet instructions, then drain and refresh under cold water,
+                        leaving it in the colander.
+                    </li>
+                    <li>
+                        At the same time, poach the fish in a large pan of simmering salted water on a medium heat for 10 minutes,then carefully
+                        remove with a slotted spoon. Turn the heat up under the poaching water and bring back to a good simmer.
+
+                    </li>
+                    <li>
+                        Meahwhile, peel the onions and finely slice with the red chilli (deseed if you like) and coriander stalks. Peel and finely
+                        chop the garlic and ginger. Place it all in a large frying pan on a medium heat with 1 tablespoon
+                        of oil and the butter, and cook for 10 minutes, or until soft but not coloured, stirring occasionally.
+                    </li>
+                </ol>
+             
+            <form>
+            
+                <div class="label">
+                <label for="message">Step</label>
+                </div>
+                
+                <div>
+                <textarea name="message" id="inputfield" rows="10" cols="30" placeholder="Step description "></textarea>  
+                </div>
+                <button type="submit" id="step"><i class="fa fa-plus-square"> Add step</i> </button>
+            </form>
+            
+        </section>
+        
+            <footer>
+            
+            <button type="submit" id="cancel"><i class="fa fa-trash-o"> Cancel</i> </button>
+            <button type="submit" id="save"><i class="fa fa-floppy-o"> Save recipe</i> </button>
+        
+            
+       
+            </footer>
+
+            </main>
+    
+        </body>
+   
+        </html>
